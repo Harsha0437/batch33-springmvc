@@ -1,0 +1,3 @@
+14-Feb-2024 16:32:49.309 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+14-Feb-2024 16:32:49.399 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'spring'
+14-Feb-2024 16:32:49.961 INFO [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'spring'
