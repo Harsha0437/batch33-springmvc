@@ -1,4 +1,4 @@
-package com.cis.batch33.demo.model;
+package com.cis.batch33.library.model;
 
 public class Member {
 

@@ -1,7 +1,7 @@
-package com.cis.batch33.demo.controller;
+package com.cis.batch33.library.controller;
 
-import com.cis.batch33.demo.model.Member;
-import com.cis.batch33.demo.service.MemberService;
+import com.cis.batch33.library.model.Member;
+import com.cis.batch33.library.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

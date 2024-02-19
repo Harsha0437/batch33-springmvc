@@ -1,12 +1,11 @@
-package com.cis.batch33.demo.service;
+package com.cis.batch33.library.service;
 
-import com.cis.batch33.demo.model.Member;
+import com.cis.batch33.library.model.Member;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
-import java.util.stream.LongStream;
 
 @Service
 public class MemberService {
