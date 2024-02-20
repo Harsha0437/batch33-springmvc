@@ -11,8 +11,8 @@ public class MemberController {
     @Autowired
     private MemberService memberService;
 
-    @GetMapping
-    public Member getMember(Long memberId){
+    @GetMapping("/{memberId}")
+    public Member getMember(@PathVariable Long memberId){
         return memberService.getMember(memberId);
     }
 
@@ -21,4 +21,15 @@ public class MemberController {
     public Member createMember(@RequestBody  Member member){
         return memberService.createMember(member);
     }
+
+    @PutMapping("/{memberId}")
+    public Member updateMember(@PathVariable Long memberId,@RequestBody Member member){
+        return memberService.updateMember(memberId,member);
+    }
+    @DeleteMapping("/{memberId}")
+    public Member deleteMember(@PathVariable Long memberId){
+        return memberService.deleteMember(memberId);
+    }
+
+
 }

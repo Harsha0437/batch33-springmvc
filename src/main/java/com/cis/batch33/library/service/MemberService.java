@@ -25,4 +25,12 @@ public class MemberService {
     return memberMap.get(memberId);
 
     }
+public Member updateMember(Long memberId,Member member){
+    memberMap.put(memberId,member);
+    System.out.println(memberId);
+    return member;
+}
+public Member deleteMember(Long memberId){
+    return memberMap.remove(memberId);
+    }
 }
